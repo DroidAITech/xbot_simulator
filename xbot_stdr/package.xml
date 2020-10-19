@@ -19,8 +19,6 @@
   <run_depend>stdr_server</run_depend>
   <run_depend>stdr_resources</run_depend>
   <run_depend>navigation</run_depend>
-  <run_depend>xbot_bringup</run_depend>
-  <run_depend>xbot_navi</run_depend>
   <run_depend>yocs_virtual_sensor</run_depend>
   <run_depend>yocs_velocity_smoother</run_depend>
 </package>
