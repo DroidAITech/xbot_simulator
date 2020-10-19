@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>xbot_stage</name>
+  <version>3.2.3</version>
+  <description>
+    Stage version of xbot simulation. Convenient to test 2D-navigation related stuffs
+  </description>
+
+  <maintainer email="wangpeng@droid.ac.cn">Roc</maintainer>
+  <author email="chuanxu@iscas.ac.cn">Chuanxu An</author>
+  <license>BSD</license>
+
+  <url type="repository">https://github.com//DroidAITech/xbot_simulator</url>
+  <url type="bugtracker">https://github.com//DroidAITech/xbot_simulator/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>stage_ros</run_depend>
+  <run_depend>navigation</run_depend>
+  <run_depend>turtlebot_bringup</run_depend>
+  <run_depend>turtlebot_navigation</run_depend>
+  <run_depend>yocs_virtual_sensor</run_depend>
+  <run_depend>yocs_velocity_smoother</run_depend>
+</package>

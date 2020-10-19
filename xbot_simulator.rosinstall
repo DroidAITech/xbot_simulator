@@ -1,0 +1,1 @@
+- git: {local-name: xbot, uri: 'https://yt.droid.ac.cn/xbot-u/xbot/-/tree/melodic-devel', version: melodic}
