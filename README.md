@@ -36,6 +36,11 @@ roslaunch xbot_gazebo xbot_world.launch
 ```
 roslaunch xbot_gazebo gmapping_demo.launch
 ```
+启动机器人键盘控制程序
+
+```
+rosrun xbot_gazebo  robot_keyboard_teleop.py 
+```
 
 启动rviz，观察建图
 
