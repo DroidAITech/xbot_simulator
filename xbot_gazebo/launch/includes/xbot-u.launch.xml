@@ -14,8 +14,8 @@
   <param name="robot_description" command="$(find xacro)/xacro.py $(find xbot_gazebo)/urdf/robot_dae.xacro" />
 
   <!-- Put a robot in gazebo, make it look pretty -->
-  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-        args="-urdf -x $(arg x) -y $(arg y) -z $(arg z) -Y $(arg yaw) -model xbot-u -param robot_description_obj"/>
+ <!-- <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+        args="-urdf -x $(arg x) -y $(arg y) -z $(arg z) -Y $(arg yaw) -model xbot-u -param robot_description_obj"/>-->
 
   <!--<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     <param name="use_gui" value="false"/>
