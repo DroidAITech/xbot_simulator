@@ -20,7 +20,7 @@ git clone https://github.com/DroidAITech/xbot.git
 如果编译还出现找不到相关包，还需要单独安装：
 
 ```
-sudo apt-get install ros-melodic-package-name
+sudo apt-get install ros-kinetic-package-name
 ```
 
 ## 启动gazebo仿真
