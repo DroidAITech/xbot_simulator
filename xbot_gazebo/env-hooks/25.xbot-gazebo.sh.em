@@ -6,7 +6,7 @@
 # Then the kernel got in on the act and added support for '#!/path/to/program' and the Bourne shell got '#' comments, and the colon convention went by the wayside.
 # But if you come across a script that starts with a colon (Like this one), now you will know why. ~ Jonathan Leffler
 : ${XBOT_GAZEBO_MAP_FILE:=`rospack find xbot_gazebo`/maps/playground.yaml}
-: ${XBOT_GAZEBO_WORLD_FILE:=`rospack find xbot_gazebo`/worlds/playground.world}
+: ${XBOT_GAZEBO_WORLD_FILE:=`rospack find xbot_gazebo`/worlds/sample.world}
 
 # Exports
 export XBOT_GAZEBO_MAP_FILE

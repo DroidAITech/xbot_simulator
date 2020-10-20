@@ -5,16 +5,16 @@ Launchers for Gazebo and stage simulation of the XBot
 
 ## 安装所需依赖
 
-1. xbot源码包；
+1. 下载xbot源码包；
 
 ```
-https://yt.droid.ac.cn/xbot-u/xbot/-/tree/melodic-devel
+git clone https://github.com/DroidAITech/xbot.git
 ```
 2. 编译运行所需依赖，根据具体问题，安装对应的ros包，也可以使用一下命令进行初步安装：
 
 ```
  cd ~/catkin_ws
- rosdep install --from-paths src --ignore-src --rosdistro=melodic -y      #默认18.04
+ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y      #默认16.04
 ```
 
 如果编译还出现找不到相关包，还需要单独安装：

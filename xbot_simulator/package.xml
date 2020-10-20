@@ -5,13 +5,12 @@
   <maintainer email="wangpeng@droid.ac.cn">Roc</maintainer>
   <author email="chuanxu@iscas.ac.cn">Chuanxu An</author>
   <license>BSD</license>
-  <url type="repository">https://github.com//DroidAITech/xbot_simulator</url>
-  <url type="bugtracker">https://github.com//DroidAITech/xbot_simulator/issues</url>
+  <url type="repository">https://github.com/DroidAITech/xbot_simulator</url>
+  <url type="bugtracker">https://github.com/DroidAITech/xbot_simulator/issues</url>
   
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>xbot_gazebo</run_depend>
   <run_depend>xbot_stage</run_depend>
-  <run_depend>xbot_stdr</run_depend>
 
   <export>
     <metapackage/>
